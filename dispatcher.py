@@ -9,6 +9,7 @@ G, intersections = create_city_graph()
 agents = {a.id: a for a in create_sample_agents()}
 orders = {}
 
+
 def find_nearest_agent(pickup_location: str):
     """Find the nearest idle agent to the pickup location"""
     nearest_agent = None

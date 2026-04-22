@@ -70,3 +70,5 @@ def create_sample_agents():
         DeliveryAgent(id=str(uuid.uuid4()), name="Kiran", current_location="H"),
     ]
     return agents
+
+

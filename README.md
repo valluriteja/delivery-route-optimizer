@@ -1,8 +1,8 @@
-# 🚴 Real-Time Delivery Route Optimizer
+#🚴Real-Time Delivery Route Optimizer
 
 A production-grade delivery routing system that optimizes delivery routes in real-time using Dijkstra algorithm — similar to how Swiggy and Zomato manage their delivery fleet.
 
-## 🔥 Features
+##Features
 - **Dijkstra Shortest Path** — finds optimal route for every delivery
 - **Smart Agent Assignment** — automatically assigns nearest idle agent
 - **Dynamic Reassignment** — reassigns orders if a closer agent becomes available
@@ -10,27 +10,27 @@ A production-grade delivery routing system that optimizes delivery routes in rea
 - **Live Map Dashboard** — React dashboard showing agents moving in real time
 - **5 Concurrent Agents** — handle multiple deliveries simultaneously
 
-## 🛠️ Tech Stack
+##Tech Stack
 - **Backend** — Python, FastAPI, NetworkX
 - **Real-time** — WebSockets
 - **Frontend** — React, Vite
 - **Algorithm** — Dijkstra shortest path (via NetworkX)
 - **Infrastructure** — Docker, AWS EC2
 
-## 🚀 How to Run
+##How to Run
 
-### Backend
+###Backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 
-### Frontend
+###Frontend
 cd dashboard
 npm install
 npm run dev
 
 Open http://localhost:5173 to see the live dashboard.
 
-## 🏗️ Architecture
+##Architecture
 Customer places order
         ↓
 System finds nearest idle agent (Dijkstra)

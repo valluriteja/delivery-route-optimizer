@@ -12,7 +12,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 G, intersections = create_city_graph()
 
 # Start simulation on startup

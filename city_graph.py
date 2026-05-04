@@ -3,7 +3,6 @@ import random
 def create_city_graph():
     """Create a graph representing a city with intersections and roads"""
     G = nx.Graph()
-    
     # City intersections (nodes) with coordinates
     intersections = {
         "A": (0, 0), "B": (1, 0), "C": (2, 0), "D": (3, 0),
